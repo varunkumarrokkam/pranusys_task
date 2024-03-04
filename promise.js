@@ -2,7 +2,7 @@
 const func1 = () => {
     return new Promise((resolve, reject) =>{
         setTimeout(()=> {
-            resolve("Data from function 1");
+            resolve("Task 1 completed");
         },3000);
     });
 };
@@ -10,7 +10,7 @@ const func1 = () => {
 const func2 = () => {
     return new Promise((resolve, reject) =>{
         setTimeout(()=> {
-            resolve("Data from function 2");
+            resolve("Task 2 completed");
         },3000);
     });
 };
@@ -18,7 +18,7 @@ const func2 = () => {
 const func3 = () => {
     return new Promise((resolve, reject) =>{
         setTimeout(()=> {
-            resolve("Data from function 3");
+            resolve("Task 3 completed");
         },3000);
     });
 };
